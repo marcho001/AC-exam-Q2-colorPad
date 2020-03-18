@@ -14,8 +14,8 @@
 <body>
   <div class="mt-4 d-flex flex-column align-items-center">
     <h1 class="m-2">RGB to HEX converter</h1>
-    <div class="col-10 p-5" style="border:1px solid; ">
-      <div class="col d-flex justify-content-center" style="border:1px solid;">
+    <div id="background" class="col-10 p-5">
+      <div class="col d-flex justify-content-center mt-3">
         <form>
           <label class="text-center bg-danger rounded" style="width: 30px; height: 30px;">
             <h4>R</h4>
@@ -25,7 +25,7 @@
             <h5>0</h5>
         </form>
       </div>
-      <div class="col d-flex justify-content-center" style="border:1px solid;">
+      <div class="col d-flex justify-content-center mt-3">
         <form>
           <label class="text-center bg-success rounded" style="width: 30px; height: 30px;">
             <h4>G</h4>
@@ -35,7 +35,7 @@
             <h5>0</h5>
         </form>
       </div>
-      <div class="col d-flex justify-content-center" style="border:1px solid;">
+      <div class="col d-flex justify-content-center mt-3">
         <form>
           <label class="text-center bg-primary rounded" style="width: 30px; height: 30px;">
             <h4>B</h4>
@@ -46,8 +46,9 @@
         </form>
       </div>
 
-      <div class="d-flex justify-content-center" style="border: 1px solid;">
-        <div class="col-3" id="hex-value" style="border: 1px solid">ffff</div>
+      <div class="d-flex justify-content-center">
+        <div class="col-4 text-center align-self-center" id="hex-value"
+          style="font-size:70px; font-weight: 900; background-color:rgba(255, 255, 255, 0.5);">#000000</div>
       </div>
     </div>
 
