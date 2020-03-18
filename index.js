@@ -1,8 +1,8 @@
 const hexVal = document.querySelector('#hex-value')
 const background = document.querySelector('#background')
-let red = '00'
-let green = '00'
-let blue = '00'
+let red = 'ff'
+let green = 'ff'
+let blue = 'ff'
 
 
 function showVal(newVal) {

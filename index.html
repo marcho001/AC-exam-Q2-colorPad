@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  
   <title>Title</title>
 </head>
 
@@ -20,9 +20,9 @@
           <label class="text-center bg-danger rounded" style="width: 30px; height: 30px;">
             <h4>R</h4>
           </label>
-          <input type="range" id="red" value="0" min="0" max="255" oninput="showVal(this)">
+          <input type="range" id="red" value="255" min="0" max="255" oninput="showVal(this)">
           <label id="red-results" class="text-center bg-danger rounded" style="width: 60px; height: 30px;">
-            <h5>0</h5>
+            <h4>255</h4>
         </form>
       </div>
       <div class="col d-flex justify-content-center mt-3">
@@ -30,9 +30,9 @@
           <label class="text-center bg-success rounded" style="width: 30px; height: 30px;">
             <h4>G</h4>
           </label>
-          <input type="range" id="green" value="0" min="0" max="255" oninput="showVal(this)">
+          <input type="range" id="green" value="255" min="0" max="255" oninput="showVal(this)">
           <label id="green-results" class="text-center bg-success rounded" style="width: 60px; height: 30px;">
-            <h5>0</h5>
+            <h4>255</h4>
         </form>
       </div>
       <div class="col d-flex justify-content-center mt-3">
@@ -40,15 +40,15 @@
           <label class="text-center bg-primary rounded" style="width: 30px; height: 30px;">
             <h4>B</h4>
           </label>
-          <input type="range" id="blue" value="0" min="0" max="255" oninput="showVal(this)">
+          <input type="range" id="blue" value="255" min="0" max="255" oninput="showVal(this)">
           <label id="blue-results" class="text-center bg-primary rounded" style="width: 60px; height: 30px;">
-            <h5>0</h5>
+            <h4>255</h4>
         </form>
       </div>
 
       <div class="d-flex justify-content-center">
         <div class="col-4 text-center align-self-center" id="hex-value"
-          style="font-size:70px; font-weight: 900; background-color:rgba(255, 255, 255, 0.5);">#000000</div>
+          style="font-size:70px; font-weight: 900; background-color:rgba(255, 255, 255, 0.5);">#ffffff</div>
       </div>
     </div>
 
